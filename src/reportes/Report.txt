@@ -1,0 +1,549 @@
+--------[ AIDA64 Extreme ]----------------------------------------------------------------------------------------------
+
+    Versión                                           AIDA64 v5.92.4300/es
+    Módulo de rendimiento                             4.3.759-x64
+    Página principal                                  http://www.aida64.com/
+    Tipo de informe                                   Asistente de informes
+    Equipo                                            DESKTOP-A7OF1NM
+    Generador                                         Sergio
+    Sistema operativo                                 Microsoft Windows 10 Pro 10.0.22621.963
+    Fecha                                             2023-01-07
+    Hora                                              12:19
+
+
+--------[ Resumen ]-----------------------------------------------------------------------------------------------------
+
+    Equipo:
+      Tipo de equipo                                    ASUSTeK COMPUTER INC. VivoBook_ASUSLaptop X515EA_X515EA
+      Sistema operativo                                 Microsoft Windows 10 Pro
+      Service Pack del SO                               -
+      Internet Explorer                                 11.1.22621.0
+      Edge                                              44.22621.963.0
+      DirectX                                           DirectX 12.0
+      Nombre del equipo                                 DESKTOP-A7OF1NM
+      Nombre de usuario                                 Sergio
+      Dominio de inicio de sesión                       DESKTOP-A7OF1NM
+      Fecha / Hora                                      2023-01-07 / 12:19
+
+    Placa base:
+      Tipo de CPU                                       4x , 2419 MHz (12 x 202)
+      Nombre de la placa base                           ASUSTeK COMPUTER INC. X515EA
+      Chipset de la placa base                          Desconocido
+      Memoria del sistema                               16080 MB
+      Tipo de BIOS                                      AMI (11/02/2021)
+
+    Pantalla:
+      Adaptador de vídeo                                Intel(R) Iris(R) Xe Graphics  (1 GB)
+      Adaptador de vídeo                                Intel(R) Iris(R) Xe Graphics  (1 GB)
+      Adaptador de vídeo                                Intel(R) Iris(R) Xe Graphics  (1 GB)
+      Adaptador de vídeo                                Intel(R) Iris(R) Xe Graphics  (1 GB)
+      Monitor                                           MyASUS_Splendid [NoDB]
+      Monitor                                           Samsung SyncMaster S24F350  [24" LCD]  (HCNNA00629)
+
+    Multimedia:
+      Adaptador de audio                                Intel® Smart Sound Technology BUS [8086-A0C8] [NoDB]
+
+    Almacenamiento:
+      Controladora de almacenamiento                    Controladora de espacios de almacenamiento de Microsoft
+      Controladora de almacenamiento                    Intel RST VMD Controller 9A0B
+      Controladora de almacenamiento                    Intel RST VMD Managed Controller 09AB
+      Unidad de disco                                   NVMe WDC WDS480G2G0C-00AJM0  (447 GB)
+      Estado SMART de los discos duros                  Aceptar
+
+    Particiones:
+      C: (NTFS)                                         446.2 GB (246.9 GB libre)
+      Tamaño total                                      446.2 GB (246.9 GB libre)
+
+    Entrada:
+      Teclado                                           Dispositivo de teclado HID
+      Teclado                                           Dispositivo de teclado HID
+      Teclado                                           Dispositivo de teclado HID
+      Teclado                                           Dispositivo de teclado HID
+      Teclado                                           Teclado PS/2 extendido para PC/AT (101/102 teclas)
+      Mouse                                             Mouse compatible con HID
+      Mouse                                             Mouse compatible con HID
+      Mouse                                             Mouse compatible con HID
+
+    Red:
+      Dirección IP primaria                             192.168.56.1
+      Dirección MAC primaria                            CC-15-31-A2-BC-1E
+      Adaptador de red                                  Bluetooth Device (Personal Area Network)
+      Adaptador de red                                  Intel(R) Wireless-AC 9461  (192.168.1.111)
+      Adaptador de red                                  Microsoft Wi-Fi Direct Virtual Adapter #2
+      Adaptador de red                                  Microsoft Wi-Fi Direct Virtual Adapter
+      Adaptador de red                                  VirtualBox Host-Only Ethernet Adapter  (192.168.56.1)
+
+    Periféricos:
+      Impresora                                         Fax
+      Impresora                                         Foxit PDF Editor Printer
+      Impresora                                         HP LaserJet CP 1025nw
+      Impresora                                         Microsoft Print to PDF
+      Impresora                                         Microsoft XPS Document Writer
+      Impresora                                         Print to Evernote
+      Impresora                                         SEC00159992FE14
+      Dispositivo USB                                   Dispositivo compuesto USB
+      Dispositivo USB                                   Dispositivo compuesto USB
+      Dispositivo USB                                   Dispositivo compuesto USB
+      Dispositivo USB                                   Dispositivo de entrada USB
+      Dispositivo USB                                   Dispositivo de entrada USB
+      Dispositivo USB                                   Dispositivo de entrada USB
+      Dispositivo USB                                   Dispositivo de entrada USB
+      Dispositivo USB                                   Dispositivo de entrada USB
+      Dispositivo USB                                   Intel(R) Wireless Bluetooth(R)
+      Dispositivo USB                                   USB2.0 VGA UVC WebCam
+      Batería                                           Adaptador de CA de Microsoft
+      Batería                                           Batería con método de control compatible con ACPI de Microsoft
+
+    DMI:
+      Vendedor del BIOS DMI                             American Megatrends International, LLC.
+      Versión del BIOS DMI                              X515EA.306
+      Fabricante del sistema DMI                        ASUSTeK COMPUTER INC.
+      Producto del sistema DMI                          VivoBook_ASUSLaptop X515EA_X515EA
+      Versión del sistema DMI                           1.0
+      Número de serie del sistema DMI                   N7N0GP000790287
+      UUID del sistema DMI                              887ACA47-37FC40A7-B9D7EDD8-97F847B3
+      Fabricante de la placa base DMI                   ASUSTeK COMPUTER INC.
+      Producto de la placa base DMI                     X515EA
+      Versión de la placa base DMI                      1.0
+      Número de serie de la placa base DMI              N208NBCV00R1T2MB
+      Fabricante del chasis DMI                         ASUSTeK COMPUTER INC.
+      Versión del chasis DMI                            1.0
+      Número de serie del chasis DMI                    N7N0GP000790287
+      Identificador del chasis DMI                      No Asset Tag
+      Tipo de chasis DMI                                Notebook
+
+
+--------[ Debug - PCI ]-------------------------------------------------------------------------------------------------
+
+    B00 D00 F00:  Intel(R) Host Bridge/DRAM Registers - 9A14 [8086-9A14] [NoDB]
+                  
+      Offset 000:  86 80 14 9A  06 00 90 00  01 00 00 06  00 00 00 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  43 10 D2 17 
+      Offset 030:  00 00 00 00  E0 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  01 10 DA FE  00 00 00 00  01 00 DC FE  00 00 00 00 
+      Offset 050:  C1 02 00 00  91 C0 02 00  C7 00 60 80  C7 00 00 7B 
+      Offset 060:  01 00 00 C0  00 00 00 00  01 00 DA FE  00 00 00 00 
+      Offset 070:  08 02 00 01  00 04 00 00  21 43 65 00  00 00 00 00 
+      Offset 080:  00 33 33 33  33 00 00 10  00 00 00 00  00 00 00 00 
+      Offset 090:  08 02 00 01  00 04 00 00  1A 02 00 01  00 04 00 00 
+      Offset 0A0:  01 00 00 00  04 00 00 00  01 00 80 7F  04 00 00 00 
+      Offset 0B0:  01 00 80 7C  01 00 00 7C  01 00 00 7B  01 00 80 80 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  1A 02 00 01  00 04 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  09 00 14 01  10 64 00 F2  08 00 24 90  0A 82 61 06 
+      Offset 0F0:  00 90 1F 00  1D 0F 01 00  00 00 00 00  00 00 00 00 
+
+    B00 D02 F00:  Intel(R) Iris(R) Xe Graphics [8086-9A49] [NoDB]
+                  
+      Offset 000:  86 80 49 9A  07 04 10 00  01 00 00 03  10 00 00 00 
+      Offset 010:  04 00 00 02  60 00 00 00  0C 00 00 00  40 00 00 00 
+      Offset 020:  01 30 00 00  00 00 00 00  00 00 00 00  43 10 CC 15 
+      Offset 030:  00 00 00 00  40 00 00 00  00 00 00 00  00 01 00 00 
+      Offset 040:  09 70 0C 01  0C 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  C1 02 00 00  91 40 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 01 00  00 00 00 00  00 00 00 00  01 00 00 00 
+      Offset 070:  10 AC 92 00  00 80 00 10  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  05 D0 01 01 
+      Offset 0B0:  10 03 E0 FE  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  01 00 80 7C  00 00 00 00  01 00 D9 FE  00 00 00 00 
+      Offset 0D0:  01 00 22 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 80 00 00  00 00 00 00 
+      Offset 0F0:  C7 00 60 80  00 00 00 00  00 00 00 00  18 90 12 72 
+
+    B00 D04 F00:  Intel(R) Dynamic Tuning Processor Participant [8086-9A03] [NoDB]
+                  
+      Offset 000:  86 80 03 9A  06 00 90 00  01 00 80 11  00 00 00 00 
+      Offset 010:  04 00 EC FF  7F 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  43 10 D2 17 
+      Offset 030:  00 00 00 00  90 00 00 00  00 00 00 00  10 01 00 00 
+      Offset 040:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  BF F4 02 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  05 D0 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  01 E0 03 00  08 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  09 00 0C 01  00 00 00 80  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B00 D08 F00:  Intel(R) GNA Scoring Accelerator module [8086-9A11] [NoDB]
+                  
+      Offset 000:  86 80 11 9A  00 04 10 00  01 00 80 08  10 00 00 00 
+      Offset 010:  04 60 EF FF  7F 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  43 10 D2 17 
+      Offset 030:  00 00 00 00  90 00 00 00  00 00 00 00  00 01 00 00 
+      Offset 040:  FF 83 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  05 A0 00 00  D0 03 E0 FE  00 00 00 00  00 00 00 00 
+      Offset 0A0:  09 DC 14 F0  10 00 40 01  00 00 00 00  81 0A 00 00 
+      Offset 0B0:  00 08 28 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  01 F0 02 00 
+      Offset 0E0:  03 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  13 00 06 03  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B00 D0A F00:  Controlador de la plataforma de tecnología de monitorización de Intel(R) [8086-9A0D] [NoDB]
+                  
+      Offset 000:  86 80 0D 9A  02 00 10 00  01 00 80 11  00 00 00 00 
+      Offset 010:  04 00 23 03  60 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  70 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  10 D0 92 00  E0 0F 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  01 00 03 00  08 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B00 D0E F00:  Intel RST VMD Controller 9A0B [8086-9A0B] [NoDB]
+                  
+      Offset 000:  86 80 0B 9A  06 04 10 00  00 00 04 01  10 00 80 00 
+      Offset 010:  04 00 00 00  60 00 00 00  00 00 00 82  00 00 00 00 
+      Offset 020:  04 00 10 03  60 00 00 00  00 00 00 00  86 80 00 00 
+      Offset 030:  00 00 00 00  80 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  01 00 00 00  01 2E 68 02  00 00 00 00  19 19 14 00 
+      Offset 050:  00 00 80 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 10  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  11 90 12 80  04 00 00 00  04 10 00 00  00 00 00 00 
+      Offset 090:  10 E0 92 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  01 00 03 00  08 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B00 D14 F00:  Controlador de host eXtensible Intel(R) USB 3.10 - 1.20 (Microsoft) [8086-A0ED] [NoDB]
+                  
+      Offset 000:  86 80 ED A0  06 04 90 02  20 30 03 0C  00 00 80 00 
+      Offset 010:  04 00 22 03  60 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  43 10 1F 20 
+      Offset 030:  00 00 00 00  70 00 00 00  00 00 00 00  00 01 00 00 
+      Offset 040:  FD 01 34 A0  89 C2 7F 80  00 00 00 00  00 00 00 00 
+      Offset 050:  3F 6D D8 0F  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  31 60 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  01 80 C2 C1  08 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  05 90 87 00  F0 02 E0 FE  00 00 00 00  00 00 00 00 
+      Offset 090:  09 B0 14 F0  10 00 40 01  00 00 00 00  C1 0A 08 00 
+      Offset 0A0:  00 08 0E 00  00 18 00 00  8F 50 02 00  00 01 00 00 
+      Offset 0B0:  09 00 00 01  86 80 C0 00  09 00 10 14  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  B5 0F 21 01  12 00 00 00 
+
+    B00 D14 F02:  Controladora PCI de RAM estándar [8086-A0EF] [NoDB]
+                  
+      Offset 000:  86 80 EF A0  06 00 10 00  20 00 00 05  10 00 00 00 
+      Offset 010:  04 00 24 03  60 00 00 00  04 A0 24 03  60 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  43 10 D2 17 
+      Offset 030:  00 00 00 00  80 00 00 00  00 00 00 00  FF 00 00 00 
+      Offset 040:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  01 00 03 00  08 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  B5 0F 21 01  00 00 00 00 
+
+    B00 D14 F03:  Intel(R) Wireless-AC 9461 [8086-A0F0] [NoDB]
+                  
+      Offset 000:  86 80 F0 A0  06 04 10 00  20 00 80 02  10 00 80 00 
+      Offset 010:  04 80 EF FF  7F 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  86 80 64 02 
+      Offset 030:  00 00 00 00  C8 00 00 00  00 00 00 00  00 04 00 00 
+      Offset 040:  10 80 92 00  C0 0E 00 10  10 0C 10 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  12 08 08 00  05 04 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  11 00 0F 80  00 20 00 00  00 30 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  01 D0 23 C8  08 01 00 0D 
+      Offset 0D0:  05 40 80 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B00 D15 F00:  Intel(R) Serial IO I2C Host Controller - A0E8 [8086-A0E8] [NoDB]
+                  
+      Offset 000:  86 80 E8 A0  00 04 10 00  20 00 80 0C  10 00 80 00 
+      Offset 010:  04 40 EF FF  7F 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  43 10 D2 17 
+      Offset 030:  00 00 00 00  80 00 00 00  00 00 00 00  1B 01 00 00 
+      Offset 040:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  01 90 03 00  0B 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  09 00 14 F0  10 00 40 01  01 21 00 00  C1 24 00 00 
+      Offset 0A0:  00 08 0F 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  B5 0F 21 01  00 00 00 00 
+
+    B00 D15 F01:  Intel(R) Serial IO I2C Host Controller - A0E9 [8086-A0E9] [NoDB]
+                  
+      Offset 000:  86 80 E9 A0  00 04 10 00  20 00 80 0C  10 00 80 00 
+      Offset 010:  04 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  43 10 D2 17 
+      Offset 030:  00 00 00 00  80 00 00 00  00 00 00 00  28 02 00 00 
+      Offset 040:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  01 90 03 00  0B 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  09 00 14 F0  10 00 40 01  01 21 00 00  C1 24 00 00 
+      Offset 0A0:  00 08 0F 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  B5 0F 21 01  00 00 00 00 
+
+    B00 D16 F00:  Intel(R) Management Engine Interface #1 [8086-A0E0] [NoDB]
+                  
+      Offset 000:  86 80 E0 A0  06 04 10 00  20 00 80 07  00 00 80 00 
+      Offset 010:  04 20 EF FF  7F 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  43 10 D2 17 
+      Offset 030:  00 00 00 00  50 00 00 00  00 00 00 00  00 01 00 00 
+      Offset 040:  45 02 00 90  00 00 00 80  06 05 F5 0B  00 00 00 00 
+      Offset 050:  01 8C 03 40  08 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  20 00 00 00  00 40 00 00  03 1F 04 00  C9 03 60 44 
+      Offset 070:  00 00 00 00  00 00 00 E0  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  05 A4 81 00 
+      Offset 090:  B0 03 E0 FE  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  04 00 00 00  09 00 14 F0  10 00 40 01  00 00 00 00 
+      Offset 0B0:  01 80 00 00  38 0D 0E 00  00 00 00 00  00 00 00 C0 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  B5 0F 21 01  00 00 00 00 
+
+    B00 D17 F00:  Intel RST VMD Managed Controller 09AB [8086-09AB] [NoDB]
+                  
+      Offset 000:  86 80 AB 09  00 00 00 00  00 00 80 08  10 00 80 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  43 10 D2 17 
+      Offset 030:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  86 80 AB 09  00 00 00 00  00 00 80 08  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  86 80 AB 09  00 00 00 00  00 00 80 08  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  86 80 AB 09  00 00 00 00  00 00 80 08  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B00 D1C F00:  Intel(R) PCI Express Root Port #1 - A0B8 [8086-A0B8] [NoDB]
+                  
+      Offset 000:  86 80 B8 A0  04 04 10 00  20 00 04 06  10 00 81 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 01 01 00  F0 00 00 20 
+      Offset 020:  F0 FF 00 00  F1 FF 01 00  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  40 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  10 80 42 00  01 80 00 00  00 00 10 00  13 4C 71 01 
+      Offset 050:  03 00 01 10  60 00 04 00  00 00 40 00  08 00 00 00 
+      Offset 060:  00 00 00 00  37 08 08 00  00 00 00 00  0E 00 00 00 
+      Offset 070:  03 00 01 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  05 90 01 00  30 00 E0 FE  00 00 00 00  00 00 00 00 
+      Offset 090:  0D A0 00 00  43 10 D2 17  00 00 00 00  00 00 00 00 
+      Offset 0A0:  01 00 03 C8  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  11 00 00 07  00 08 00 00  02 00 11 09  00 00 00 00 
+      Offset 0E0:  00 F7 31 00  00 00 00 00  04 80 02 00  00 00 00 00 
+      Offset 0F0:  50 01 00 00  00 F3 00 40  B5 0F 21 01  04 00 00 00 
+
+    B00 D1E F00:  Intel(R) Serial IO UART Host Controller - A0A8 [8086-A0A8] [NoDB]
+                  
+      Offset 000:  86 80 A8 A0  00 04 10 00  20 00 80 07  10 00 80 00 
+      Offset 010:  04 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  43 10 D2 17 
+      Offset 030:  00 00 00 00  80 00 00 00  00 00 00 00  10 01 00 00 
+      Offset 040:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  01 90 03 00  0B 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  09 00 14 F0  10 00 40 01  01 21 00 00  C1 24 00 00 
+      Offset 0A0:  00 08 0F 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  B5 0F 21 01  00 00 00 00 
+
+    B00 D1E F02:  Intel(R) Serial IO SPI Host Controller - A0AA [8086-A0AA] [NoDB]
+                  
+      Offset 000:  86 80 AA A0  00 04 10 00  20 00 80 0C  10 00 80 00 
+      Offset 010:  04 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  43 10 D2 17 
+      Offset 030:  00 00 00 00  80 00 00 00  00 00 00 00  24 03 00 00 
+      Offset 040:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  01 90 03 00  0B 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  09 00 14 F0  10 00 40 01  01 21 00 00  C1 24 00 00 
+      Offset 0A0:  00 08 0F 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  B5 0F 21 01  00 00 00 00 
+
+    B00 D1F F00:  Intel(R) LPC Controller/eSPI Controller (U Premium) - A082 [8086-A082] [NoDB]
+                  
+      Offset 000:  86 80 82 A0  07 04 00 00  20 00 01 06  00 00 80 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  43 10 D2 17 
+      Offset 030:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  10 00 03 3C  51 02 0C 00  81 03 0C 00  81 00 0C 00 
+      Offset 090:  00 00 00 00  10 2F 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  CF FF 00 00  A6 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  B5 0F 21 01  00 00 00 00 
+
+    B00 D1F F03:  Intel® Smart Sound Technology BUS [8086-A0C8] [NoDB]
+                  
+      Offset 000:  86 80 C8 A0  06 04 10 00  20 80 03 04  10 20 00 00 
+      Offset 010:  04 C0 EF FF  7F 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  04 00 F0 FF  7F 00 00 00  00 00 00 00  43 10 72 1B 
+      Offset 030:  00 00 00 00  50 00 00 00  00 00 00 00  00 01 00 00 
+      Offset 040:  00 00 00 00  10 00 00 00  FF 09 FB 00  00 00 00 00 
+      Offset 050:  01 80 43 C0  08 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  05 00 81 00  F0 03 E0 FE  00 00 00 00  00 00 00 00 
+      Offset 070:  10 00 91 00  00 00 00 10  00 28 10 00  00 00 00 00 
+      Offset 080:  09 60 14 F0  10 00 40 01  00 00 00 00  A1 04 01 00 
+      Offset 090:  00 08 28 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  02 06 02 28  00 60 80 04  00 0C A5 82  10 00 03 00 
+      Offset 0D0:  00 0C B5 02  10 00 03 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  B5 0F 21 01  00 00 00 00 
+
+    B00 D1F F04:  Intel(R) SMBus - A0A3 [8086-A0A3] [NoDB]
+                  
+      Offset 000:  86 80 A3 A0  03 00 80 02  20 00 05 0C  00 00 00 00 
+      Offset 010:  04 40 24 03  60 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  A1 EF 00 00  00 00 00 00  00 00 00 00  43 10 D2 17 
+      Offset 030:  00 00 00 00  00 00 00 00  00 00 00 00  FF 01 00 00 
+      Offset 040:  11 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  01 04 00 00  01 01 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  04 05 05 00  00 00 0A 0A  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  24 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 21 01  00 0C 00 00  1F 00 20 01  00 0E 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  B5 0F 21 01  00 00 00 00 
+
+    B00 D1F F05:  Intel(R) SPI (flash) Controller - A0A4 [8086-A0A4] [NoDB]
+                  
+      Offset 000:  86 80 A4 A0  02 04 00 00  20 00 80 0C  00 00 00 00 
+      Offset 010:  00 00 01 FE  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  43 10 D2 17 
+      Offset 030:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  CF FF 00 00  AA 08 00 10 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  B5 0F 21 01  00 00 00 00 
+
+
+--------[ Debug - Video BIOS ]------------------------------------------------------------------------------------------
+
+    C000:0000  LWdQ.$OK..Z.^......e+0c..FtUt6.zhq"......y...`}....h.v.......GR.
+    C000:0040  ..........f....Y...{...E..{6....?hM.B....S.h;..]......)..&..U..
+    C000:0080  .6......bYR..W.".uc_......E..>.QQ`.i.-.S..<@.~I8.d!.u.C.`O...U.a
+    C000:00C0  .~..]gN7bf..d.Qf}*...oI?..q.......]+k...>2y.]/.:.......7x......
+    C000:0100  w.}...(..Xn..j=.-.H..^)*..6!'Gu)~Y.5"7..I,..R9..2.o|..~8qZ../..V
+    C000:0140  A')..Va1.....)-Zh&....x.e..~z....P5..~..WEb..>......m..........G
+    C000:0180  .3u.\..4...|..yWs...>.4..3;m.&...Og......L.{.......]..4y...'l8.
+    C000:01C0  .8.._...u..{..=5$$......Y......#..........r.{.F}3.+6}\....V...j
+    C000:0200  ....0.......F..].O.$..~{..b..0...h.Y..X.....P!%22u.:............
+    C000:0240  .Y.j..w..3*..2.; ".. .Z...X....u.H.7....S>I:....7e..UAP|......2.
+    C000:0280  ..W]...Lo.b....e.........-. ?.&.{...F..U....+r..,...Z"..`l......
+    C000:02C0  1.;.].eN........)d..o/U.@>...s.]..x.>..5W..S...f1.[..E..C%.O"d.
+    C000:0300  ..w.C.{jz.y.U....|..iG..]....p.2....w.!.....a\...J.|w).o.j.h....
+    C000:0340  ....*w.}yT...|.TiK.....?.e.\;....1:....PH.K...8..D.N....~m!XY'c
+    C000:0380  .........w...r.u.CR...w.......t.i<O....A.h.9,S.,........ET....&3
+    C000:03C0  .N..2.+....F...`..M..[....n.2.....o|)%.O1P.).m....E!].+..s...!..
+
+
+--------[ Debug - Unknown ]---------------------------------------------------------------------------------------------
+
+    Monitor ID      AUO61ED: MyASUS_Splendid [NoDB]
+    Monitor Model   B156HTN06.1
+    Monitor Vendor  AUO
+    PCI/AGP         8086-09AB [SubSys: 1043-17D2]: Intel RST VMD Managed Controller 09AB [8086-09AB] [NoDB]
+    PCI/AGP         8086-9A03 [SubSys: 1043-17D2]: Intel(R) Dynamic Tuning Processor Participant [8086-9A03] [NoDB]
+    PCI/AGP         8086-9A0B [SubSys: 8086-0000]: Intel RST VMD Controller 9A0B [8086-9A0B] [NoDB]
+    PCI/AGP         8086-9A0D [SubSys: 0000-0000]: Controlador de la plataforma de tecnología de monitorización de Intel(R) [8086-9A0D] [NoDB]
+    PCI/AGP         8086-9A11 [SubSys: 1043-17D2]: Intel(R) GNA Scoring Accelerator module [8086-9A11] [NoDB]
+    PCI/AGP         8086-9A14 [SubSys: 1043-17D2]: Intel(R) Host Bridge/DRAM Registers - 9A14 [8086-9A14] [NoDB]
+    PCI/AGP         8086-9A49 [SubSys: 1043-15CC]: Intel(R) Iris(R) Xe Graphics [8086-9A49] [NoDB]
+    PCI/AGP         8086-A082 [SubSys: 1043-17D2]: Intel(R) LPC Controller/eSPI Controller (U Premium) - A082 [8086-A082] [NoDB]
+    PCI/AGP         8086-A0A3 [SubSys: 1043-17D2]: Intel(R) SMBus - A0A3 [8086-A0A3] [NoDB]
+    PCI/AGP         8086-A0A4 [SubSys: 1043-17D2]: Intel(R) SPI (flash) Controller - A0A4 [8086-A0A4] [NoDB]
+    PCI/AGP         8086-A0A8 [SubSys: 1043-17D2]: Intel(R) Serial IO UART Host Controller - A0A8 [8086-A0A8] [NoDB]
+    PCI/AGP         8086-A0AA [SubSys: 1043-17D2]: Intel(R) Serial IO SPI Host Controller - A0AA [8086-A0AA] [NoDB]
+    PCI/AGP         8086-A0B8 [SubSys: 0000-0000]: Intel(R) PCI Express Root Port #1 - A0B8 [8086-A0B8] [NoDB]
+    PCI/AGP         8086-A0C8 [SubSys: 1043-1B72]: Intel® Smart Sound Technology BUS [8086-A0C8] [NoDB]
+    PCI/AGP         8086-A0E0 [SubSys: 1043-17D2]: Intel(R) Management Engine Interface #1 [8086-A0E0] [NoDB]
+    PCI/AGP         8086-A0E8 [SubSys: 1043-17D2]: Intel(R) Serial IO I2C Host Controller - A0E8 [8086-A0E8] [NoDB]
+    PCI/AGP         8086-A0E9 [SubSys: 1043-17D2]: Intel(R) Serial IO I2C Host Controller - A0E9 [8086-A0E9] [NoDB]
+    PCI/AGP         8086-A0ED [SubSys: 1043-201F]: Controlador de host eXtensible Intel(R) USB 3.10 - 1.20 (Microsoft) [8086-A0ED] [NoDB]
+    PCI/AGP         8086-A0EF [SubSys: 1043-17D2]: Controladora PCI de RAM estándar [8086-A0EF] [NoDB]
+    PCI/AGP         8086-A0F0 [SubSys: 8086-0264]: Intel(R) Wireless-AC 9461 [8086-A0F0] [NoDB]
+    PnP             INT34C5: Intel(R) Serial IO GPIO Host Controller - INT34C5 [NoDB]
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+The names of actual companies and products mentioned herein may be the trademarks of their respective owners.

@@ -1,0 +1,90 @@
+Page,Device,Group,ItemID,Item,Value
+Informe,,,257,Versión,AIDA64 v6.85.6300/es
+Informe,,,266,Módulo de rendimiento,4.6.875.8-x64
+Informe,,,259,Página principal,http://www.aida64.com/
+Informe,,,260,Tipo de informe,Asistente de informes [ TRIAL VERSION ]
+Informe,,,261,Equipo,DESKTOP-A7OF1NM
+Informe,,,262,Generador,Sergio
+Informe,,,263,Sistema operativo,Microsoft Windows 11 Pro 10.0.22621.963 (Win11 22H2 2022 Update)
+Informe,,,264,Fecha,2023-01-07
+Informe,,,265,Hora,14:28
+Resumen,,Equipo,582,Tipo de equipo,ASUSTeK COMPUTER INC. VivoBook_ASUSLaptop X515EA_X515EA  (Mobile)
+Resumen,,Equipo,513,Sistema operativo,Microsoft Windows 11 Pro
+Resumen,,Equipo,540,Service Pack del SO,[ TRIAL VERSION ]
+Resumen,,Equipo,564,Internet Explorer,11.1.22621.0
+Resumen,,Equipo,590,Edge,108.0.1462.76
+Resumen,,Equipo,566,DirectX,DirectX 12.0
+Resumen,,Equipo,514,Nombre del equipo,DESKTOP-A7OF1NM
+Resumen,,Equipo,515,Nombre de usuario,Sergio
+Resumen,,Equipo,516,Dominio de inicio de sesión,[ TRIAL VERSION ]
+Resumen,,Equipo,0,Fecha / Hora,2023-01-07 / 14:28
+Resumen,,Placa base,517,Tipo de CPU,QuadCore Intel Core i5-1135G7; 4200 MHz (42 x 100)
+Resumen,,Placa base,518,Nombre de la placa base,Asus VivoBook 15 X515EA
+Resumen,,Placa base,519,Chipset de la placa base,Intel Tiger Point-LP; Intel Tiger Lake-UP3
+Resumen,,Placa base,520,Memoria del sistema,[ TRIAL VERSION ]
+Resumen,,Placa base,521,Tipo de BIOS,AMI (11/02/2021)
+Resumen,,Pantalla,523,Adaptador de vídeo,Intel(R) Iris(R) Xe Graphics  (1 GB)
+Resumen,,Pantalla,523,Adaptador de vídeo,Intel(R) Iris(R) Xe Graphics  (1 GB)
+Resumen,,Pantalla,523,Adaptador de vídeo,Intel(R) Iris(R) Xe Graphics  (1 GB)
+Resumen,,Pantalla,523,Adaptador de vídeo,Intel(R) Iris(R) Xe Graphics  (1 GB)
+Resumen,,Pantalla,525,Monitor,AU Optronics B156HTN06.1  [15.6" LCD]
+Resumen,,Pantalla,525,Monitor,Samsung SyncMaster S24F350  [24" LCD]  (HCNNA00629)
+Resumen,,Multimedia,526,Adaptador de audio,Intel Tiger Point-LP PCH - cAVS (Audio; Voice; Speech)
+Resumen,,Almacenamiento,581,Controladora de almacenamiento,Controladora de espacios de almacenamiento de Microsoft
+Resumen,,Almacenamiento,581,Controladora de almacenamiento,Intel RST VMD Controller 9A0B
+Resumen,,Almacenamiento,581,Controladora de almacenamiento,Intel RST VMD Managed Controller 09AB
+Resumen,,Almacenamiento,528,Unidad de disco,NVMe WDC WDS480G2G0C-00AJM0  (480 GB; PCI-E 3.0 x4)
+Resumen,,Almacenamiento,585,Estado SMART de los discos duros,OK
+Resumen,,Particiones,530,C: (NTFS),[ TRIAL VERSION ]
+Resumen,,Particiones,586,Tamaño total,[ TRIAL VERSION ]
+Resumen,,Entrada,531,Teclado,Dispositivo de teclado HID
+Resumen,,Entrada,531,Teclado,Dispositivo de teclado HID
+Resumen,,Entrada,531,Teclado,Dispositivo de teclado HID
+Resumen,,Entrada,531,Teclado,Dispositivo de teclado HID
+Resumen,,Entrada,531,Teclado,Teclado PS/2 extendido para PC/AT (101/102 teclas)
+Resumen,,Entrada,532,Mouse,Mouse compatible con HID
+Resumen,,Entrada,532,Mouse,Mouse compatible con HID
+Resumen,,Entrada,532,Mouse,Mouse compatible con HID
+Resumen,,Red,538,Dirección IP primaria,[ TRIAL VERSION ]
+Resumen,,Red,539,Dirección MAC primaria,CC-15-31-A2-BC-1E
+Resumen,,Red,534,Adaptador de red,Bluetooth Device (Personal Area Network)
+Resumen,,Red,534,Adaptador de red,Intel(R) Wireless-AC 9461  (192. [ TRIAL VERSION ])
+Resumen,,Red,534,Adaptador de red,Microsoft Wi-Fi Direct Virtual Adapter #2
+Resumen,,Red,534,Adaptador de red,Microsoft Wi-Fi Direct Virtual Adapter
+Resumen,,Red,534,Adaptador de red,VirtualBox Host-Only Ethernet Adapter  (192. [ TRIAL VERSION ])
+Resumen,,Periféricos,536,Impresora,Fax
+Resumen,,Periféricos,536,Impresora,Foxit PDF Editor Printer
+Resumen,,Periféricos,536,Impresora,HP LaserJet CP 1025nw
+Resumen,,Periféricos,536,Impresora,Microsoft Print to PDF
+Resumen,,Periféricos,536,Impresora,Microsoft XPS Document Writer
+Resumen,,Periféricos,536,Impresora,Print to Evernote
+Resumen,,Periféricos,536,Impresora,SEC00159992FE14
+Resumen,,Periféricos,588,Controladora USB3,Intel Tiger Point-LP PCH - USB 3.2 Gen 2x1 (10 Gb/s) xHCI Host Controller
+Resumen,,Periféricos,537,Dispositivo USB,Dispositivo compuesto USB
+Resumen,,Periféricos,537,Dispositivo USB,Dispositivo compuesto USB
+Resumen,,Periféricos,537,Dispositivo USB,Dispositivo compuesto USB
+Resumen,,Periféricos,537,Dispositivo USB,Dispositivo de entrada USB
+Resumen,,Periféricos,537,Dispositivo USB,Dispositivo de entrada USB
+Resumen,,Periféricos,537,Dispositivo USB,Dispositivo de entrada USB
+Resumen,,Periféricos,537,Dispositivo USB,Dispositivo de entrada USB
+Resumen,,Periféricos,537,Dispositivo USB,Dispositivo de entrada USB
+Resumen,,Periféricos,537,Dispositivo USB,Intel(R) Wireless Bluetooth(R)
+Resumen,,Periféricos,537,Dispositivo USB,USB2.0 VGA UVC WebCam
+Resumen,,Periféricos,584,Batería,Adaptador de CA de Microsoft
+Resumen,,Periféricos,584,Batería,Batería con método de control compatible con ACPI de Microsoft
+Resumen,,DMI,548,Vendedor del BIOS DMI,American Megatrends International; LLC.
+Resumen,,DMI,549,Versión del BIOS DMI,X515EA.306
+Resumen,,DMI,550,Fabricante del sistema DMI,ASUSTeK COMPUTER INC.
+Resumen,,DMI,551,Producto del sistema DMI,VivoBook_ASUSLaptop X515EA_X515EA
+Resumen,,DMI,552,Versión del sistema DMI,1.0
+Resumen,,DMI,553,Número de serie del sistema DMI,[ TRIAL VERSION ]
+Resumen,,DMI,554,UUID del sistema DMI,[ TRIAL VERSION ]
+Resumen,,DMI,555,Fabricante de la placa base DMI,ASUSTeK COMPUTER INC.
+Resumen,,DMI,556,Producto de la placa base DMI,X515EA
+Resumen,,DMI,557,Versión de la placa base DMI,1.0
+Resumen,,DMI,558,Número de serie de la placa base DMI,[ TRIAL VERSION ]
+Resumen,,DMI,559,Fabricante del chasis DMI,ASUSTeK COMPUTER INC.
+Resumen,,DMI,560,Versión del chasis DMI,1.0
+Resumen,,DMI,561,Número de serie del chasis DMI,[ TRIAL VERSION ]
+Resumen,,DMI,562,Identificador del chasis DMI,[ TRIAL VERSION ]
+Resumen,,DMI,563,Tipo de chasis DMI,Notebook
