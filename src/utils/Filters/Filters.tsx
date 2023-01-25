@@ -14,13 +14,13 @@ import { ImSortAmountAsc, ImSortAmountDesc } from "react-icons/im";
 export interface FiltersInterface {
   clientes: Promise<Persona[]>;
   resultadoFiltrado: (clientes: Persona[]) => void;
-  
+
 }
 
 const Filters: React.FC<FiltersInterface> = ({
   clientes,
   resultadoFiltrado,
- 
+
 }) => {
   const [search, setSearch] = useState<string>("");
   const [filtroAs, setFiltroAs] = useState<boolean>(false);
@@ -33,19 +33,19 @@ const Filters: React.FC<FiltersInterface> = ({
   };
   const filtroAlfabetico = () => {
     let valor = ascendente;
-	setAscendente(!ascendente);
-	if (!valor) {
-		fAscendente(personas);
-		resultadoFiltrado(personas)
-	
-	   } else {
-	
-		fDescendente(personas);
-		resultadoFiltrado(personas)
-	
-		
-	   }
-	   
+    setAscendente(!ascendente);
+    if (!valor) {
+      fAscendente(personas);
+      resultadoFiltrado(personas)
+
+    } else {
+
+      fDescendente(personas);
+      resultadoFiltrado(personas)
+
+
+    }
+
   };
   useEffect(() => {
     if (inicio) {
@@ -54,11 +54,11 @@ const Filters: React.FC<FiltersInterface> = ({
         if (c.length > 0) {
           setInicio(false);
         }
-		fAscendente(c);
-		resultadoFiltrado(c)
+        fAscendente(c);
+        resultadoFiltrado(c)
       });
 
-    
+
     } else {
       if (!search) {
         resultadoFiltrado(personas);
@@ -71,10 +71,10 @@ const Filters: React.FC<FiltersInterface> = ({
 
         resultadoFiltrado(res);
       }
-	  	
+
     }
 
-  }, [search,personas]);
+  }, [search, personas]);
 
   return (
     <Box
@@ -93,7 +93,7 @@ const Filters: React.FC<FiltersInterface> = ({
         onChange={handleSearch}
         sx={{ marginTop: "1rem" }}
       />
-     
+
       {ascendente ? (
         <Box
           component={Button}

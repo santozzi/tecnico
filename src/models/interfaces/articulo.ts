@@ -35,7 +35,8 @@ export interface IWifi extends IClave{
 export interface IStart extends IClave{
     usuario?:string;
 }
-
+export interface IDeepFreeze extends IClave{}
+export interface IBios extends IClave{}
 
 export interface IImpresora extends IArticulo{
     tipoImpresora?:string;
