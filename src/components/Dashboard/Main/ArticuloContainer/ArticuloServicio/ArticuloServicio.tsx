@@ -145,7 +145,7 @@ const ArticuloServicio: React.FC<ArticuloServicioInterface> = ({
                   width: "11rem",
                 }}
               >
-                {`${articulo.aCargoDe?.apellido}, ${articulo.aCargoDe?.nombre}`}
+                {`${articulo.aCargoDe}, ${articulo.aCargoDe}`}
               </Box>
             </Box>
           );

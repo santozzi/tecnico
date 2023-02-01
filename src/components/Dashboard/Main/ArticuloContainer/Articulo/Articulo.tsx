@@ -9,6 +9,7 @@ import { DateMask } from "../../../../../utils/fecha";
 import { findAll } from "../../../../../models/prueba/articulo.model";
 
 import {
+  IArticulo,
   IArticulo as Item,
   IClave,
   IComputadora,
@@ -19,6 +20,7 @@ import {
 import CPU from "./Computadora/CPU/CPU";
 import Notebook from "./Computadora/Notebook/Notebook";
 import Impresora from "./Impresora/Impresora";
+import FiltroArticulos from "../../../../../utils/Filters/FitroArticulos/FiltroArticulos";
 
 export interface ArticuloInterface {
   color?: string;
@@ -31,6 +33,8 @@ const Articulo: React.FC<ArticuloInterface> = ({ item }) => {
   const [listaClaves, setListaClaves] = useState(false);
   const [clavesSize, setClavesSize] = useState(0);
   const [mapTipo, setMapTipo] = useState<Map<string, any>>(new Map());
+  const [articulos, setArticulos] =useState<IArticulo[]>([]);
+  
   const tipoClave = (clave: IClave) => {
     if (clave.tipo === "wifi") {
       return (
@@ -49,7 +53,9 @@ const Articulo: React.FC<ArticuloInterface> = ({ item }) => {
       );
     }
   };
-
+  const manejadorDeArticulos=(articulos:IArticulo[])=>{
+       setArticulos(articulos);
+  }
   useEffect(() => {
     setClavesSize((item as IComputadora).claves?.length || 0);
     setMapTipo((f) => f.set("CPU", <CPU articulo={item} />));
@@ -58,73 +64,75 @@ const Articulo: React.FC<ArticuloInterface> = ({ item }) => {
   }, [item, clavesSize]);
 
   return (
-    <Box
-      sx={{
-        ...classes().containerBase,
-      }}
-    >
-      <Box sx={{ ...classes().titulo }}>
-        <Button onClick={() => setDesplegar((f) => !f)}>
-          <Box>
-            <Box>{item.tipo}</Box>
-            <Box>{`${item.marca} - ${item.modelo} `}</Box>
-          </Box>
-        </Button>
-        <Box
-          sx={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            flexDirection: "column",
-            gap: "0.2rem",
-          }}
-        >
+
+      <Box
+        sx={{
+          ...classes().containerBase,
+        }}
+      >
+        <Box sx={{ ...classes().titulo }}>
+          <Button onClick={() => setDesplegar((f) => !f)}>
+            <Box>
+              <Box>{item.tipo}</Box>
+              <Box>{`${item.marca} - ${item.modelo} `}</Box>
+            </Box>
+          </Button>
           <Box
             sx={{
-              color: "#888888",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              flexDirection: "column",
+              gap: "0.2rem",
             }}
           >
-            {item.serieDef === "" ? item.serieProv : item.serieDef}
-          </Box>
-          <Box>{`${item.aCargoDe?.nombre}`}</Box>
-          <Box sx={classes().buttons}>
-            {/* --------------BOTON EDITAR------------------- */}
             <Box
-              component="button"
-              sx={classes().buttonEdit}
-              // onClick={()=>seleccionCliente(cliente) }
+              sx={{
+                color: "#888888",
+              }}
             >
-              <EditIcon fontSize="small" />
+              {item.serieDef === "" ? item.serieProv : item.serieDef}
             </Box>
-            <Box component="button" sx={classes().buttonDelete}>
-              <DeleteOutlineIcon fontSize="small" />
+            <Box>{`${item.aCargoDe}`}</Box>
+            <Box sx={classes().buttons}>
+              {/* --------------BOTON EDITAR------------------- */}
+              <Box
+                component="button"
+                sx={classes().buttonEdit}
+              // onClick={()=>seleccionCliente(cliente) }
+              >
+                <EditIcon fontSize="small" />
+              </Box>
+              <Box component="button" sx={classes().buttonDelete}>
+                <DeleteOutlineIcon fontSize="small" />
+              </Box>
             </Box>
           </Box>
         </Box>
+
+        {desplegar && (
+          <Box sx={classes().dataContainer}>
+            <Box sx={classes().iconoData}>
+              <HomeIcon />
+              <Box>{`Cliente: ${item.aCargoDe} ${item.aCargoDe} `}</Box>
+            </Box>
+            <Box sx={classes().iconoData}>
+              <CalendarMonthIcon />
+              <Box>
+                {DateMask(new Date("01/01/1900") || new Date("01/01/1900"))}
+              </Box>
+            </Box>
+            <Box sx={{
+              margin: '0.3rem 0.3rem',
+
+            }}>
+              {mapTipo.get(item.tipo || "")}
+            </Box>
+
+          </Box>
+        )}
       </Box>
-
-      {desplegar && (
-        <Box sx={classes().dataContainer}>
-          <Box sx={classes().iconoData}>
-            <HomeIcon />
-            <Box>{`Cliente: ${item.aCargoDe?.apellido} ${item.aCargoDe?.nombre} `}</Box>
-          </Box>
-          <Box sx={classes().iconoData}>
-            <CalendarMonthIcon />
-            <Box>
-              {DateMask(new Date("01/01/1900") || new Date("01/01/1900"))}
-            </Box>
-          </Box>
-          <Box sx={{
-             margin:'0.3rem 0.3rem',
-
-          }}>
-            {mapTipo.get(item.tipo || "")}
-          </Box>
-
-        </Box>
-      )}
-    </Box>
+    
   );
 };
 

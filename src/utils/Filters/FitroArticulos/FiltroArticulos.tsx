@@ -16,8 +16,8 @@ const FiltroArticulos : React.FC<FitroArticulosInterface> = ({articulos,manejado
 		
 		if(!ascendente){
 		 arreglo = articulos.sort((a:IArticulo,b:IArticulo)=>{
-			const nameA = a.aCargoDe?.apellido?.toUpperCase() || ""; // ignore upper and lowercase
-			const nameB = b.aCargoDe?.apellido?.toUpperCase()|| ""; // ignore upper and lowercase
+			const nameA = a.aCargoDe?.toUpperCase() || ""; // ignore upper and lowercase
+			const nameB = b.aCargoDe?.toUpperCase()|| ""; // ignore upper and lowercase
 			if (nameA < nameB) {
 			  return -1;
 			}
@@ -28,8 +28,8 @@ const FiltroArticulos : React.FC<FitroArticulosInterface> = ({articulos,manejado
 		})
 	    }else{
 			arreglo = articulos.sort((a:IArticulo,b:IArticulo)=>{
-				const nameA = a.aCargoDe?.apellido?.toUpperCase() || ""; // ignore upper and lowercase
-				const nameB = b.aCargoDe?.apellido?.toUpperCase()|| ""; // ignore upper and lowercase
+				const nameA = a.aCargoDe?.toUpperCase() || ""; // ignore upper and lowercase
+				const nameB = b.aCargoDe?.toUpperCase()|| ""; // ignore upper and lowercase
 				if (nameA < nameB) {
 				  return 1;
 				}

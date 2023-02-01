@@ -1,4 +1,4 @@
-import { Wifi } from "@mui/icons-material";
+
 import { Persona } from "./persona";
 
 const TipoArticulo={
@@ -10,7 +10,12 @@ const TipoArticulo={
     Tablet:"Tablet"
 }
 
+export interface IRelacion {
+    id?:string;
+    padre:string;
+    nombre:string;
 
+}
 export interface IArticulo{
     id?:string;
     tipo?:string;
@@ -18,7 +23,7 @@ export interface IArticulo{
     modelo?:string;
     serieProv?:string;
     serieDef?:string;
-    aCargoDe?:Persona;
+    aCargoDe?:string;
     ingreso?:Date;
 }
 

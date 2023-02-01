@@ -3,15 +3,15 @@ import {Box} from '@mui/material';
 import Articulo from "./Articulo/Articulo";
 import { findAll } from "../../../../models/prueba/articulo.model";
 import { IArticulo, IArticulo as Item} from "../../../../models/interfaces/articulo";
+import FiltroArticulos from "../../../../utils/Filters/FitroArticulos/FiltroArticulos";
+import Button from "@mui/material/Button";
 
 export interface ArticuloContainerInterface {}
 
 const ArticuloContainer: React.FC<ArticuloContainerInterface> = () => {
   const [articulos, setArticulos] = useState<Item[]>([])
    const deptoColor=(depto:string):string=>{
-   const manejadorDeArticulos=(articulos:IArticulo[])=>{
-       setArticulos(articulos);
-   }
+  
     switch(depto){
       case "ESC":{return('#2B67B7')}
       break;
@@ -28,7 +28,9 @@ const ArticuloContainer: React.FC<ArticuloContainerInterface> = () => {
      }
    }
 
-
+   const manejadorArticulos=(articulos:IArticulo[])=>{
+    setArticulos(articulos);
+}
    useEffect(() => {
     findAll().then(art=>{
         setArticulos(art);
@@ -36,7 +38,20 @@ const ArticuloContainer: React.FC<ArticuloContainerInterface> = () => {
         
     })
  }, [])
+
+
   return (
+    <Box>
+    <Box sx={{
+      display:'flex',
+      alignItems:'center',
+      justifyContent:'center',
+      height:'100%'
+    }}>
+    <FiltroArticulos articulos={articulos} manejadorDeArticulos={manejadorArticulos} />
+    <Button>Agregar</Button>
+    </Box>
+
     <Box
       sx={{
         display: "flex",
@@ -55,6 +70,7 @@ const ArticuloContainer: React.FC<ArticuloContainerInterface> = () => {
       }
       
      
+    </Box>
     </Box>
   );
 };
